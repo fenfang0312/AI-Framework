@@ -1,0 +1,47 @@
+sk-cp-v2A8s_umRHckVY64-ZPTUguh0zUvAYC2WVO8_RVjOs_vxca1lOTy7JTHPujNDvAm-L-yZUhXkf6e7uTkcnVPS3kiAS02UIvWKku7fwV9wnfurx1KLI6qr0M
+
+"claudeCode.allowDangerouslySkipPermissions": true,
+    "claudeCode.environmentVariables": [
+        {
+            "name": "ANTHROPIC_BASE_URL",
+            "value": "https://api.minimaxi.com/anthropic"
+        },
+        {
+            "name": "ANTHROPIC_AUTH_TOKEN",
+            "value": "sk-cp-v2A8s_umRHckVY64-ZPTUguh0zUvAYC2WVO8_RVjOs_vxca1lOTy7JTHPujNDvAm-L-yZUhXkf6e7uTkcnVPS3kiAS02UIvWKku7fwV9wnfurx1KLI6qr0M"
+        },
+        {
+            "name": "API_TIMEOUT_MS",
+            "value": "3000000"
+        },
+        {
+            "name": "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC",
+            "value": "1"
+        },
+        {
+            "name": "ANTHROPIC_MODEL",
+            "value": "MiniMax-M2"
+        },
+        {
+            "name": "ANTHROPIC_SMALL_FAST_MODEL",
+            "value": "MiniMax-M2"
+        },
+        {
+            "name": "ANTHROPIC_DEFAULT_SONNET_MODEL",
+            "value": "MiniMax-M2"
+        },
+        {
+            "name": "ANTHROPIC_DEFAULT_OPUS_MODEL",
+            "value": "MiniMax-M2"
+        },
+        {
+            "name": "ANTHROPIC_DEFAULT_HAIKU_MODEL",
+            "value": "MiniMax-M2"
+        }
+    ],
+    "claudeCode.selectedModel": "MiniMax-M2",
+    "claudeCode.disableLoginPrompt": true,
+    "claudeCode.allowDangerouslySkipPermissions": true,
+    "claudeCode.selectedModel": "MiniMax-M2"
+
+vscode -> ctl + shift + p ->preference: open user settings(json)
