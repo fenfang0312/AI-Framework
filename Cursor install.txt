@@ -1,0 +1,42 @@
+1. https://cursor.com/，下载安装包：CursorUserSetup-x64-3.1.15.exe
+2. 安装
+3. sign up->sign in->github账号->by myself & software engineer->skip for now->connect to GitHub
+4. cursor app端：new project or open project
+
+
+1. SSL
+提示: encrypted traffic is being intercpeted by unrecognized certificate:C=KR; O=Samsung Electronics; CN=GSP.SEC.SAMSUNG.CN
+[2026-04-27T06:05:38.571Z] Status: 200
+[2026-04-27T06:05:38.571Z] IP: 10.244.254.254
+[2026-04-27T06:05:38.571Z] Issuer: C=KR; O=Samsung Electronics; CN=GSP.SEC.SAMSUNG.NET
+[2026-04-27T06:05:38.571Z] Name: api2.cursor.sh
+[2026-04-27T06:05:38.571Z] AltName: DNS:api2.cursor.sh, DNS:prod.authentication.cursor.sh, DNS:*.api2.cursor.sh
+[2026-04-27T06:05:38.571Z] DNS Time: 75ms
+[2026-04-27T06:05:38.571Z] Connect Time: 0ms
+[2026-04-27T06:05:38.571Z] TLS Time: 483ms
+[2026-04-27T06:05:38.571Z] Result: Warning: Encrypted traffic is being intercepted by unrecognized certificate: C=KR; O=Samsung Electronics; CN=GSP.SEC.SAMSUNG.NET in 823ms
+2. HTTP/2
+提示: unexpected protocol: undefined
+[2026-04-27T06:05:37.748Z] Start
+[2026-04-27T06:06:00.623Z] Host: api2.cursor.sh
+[2026-04-27T06:06:00.623Z] Protocol: undefined
+[2026-04-27T06:06:00.623Z] Result: Error: Unexpected protocol: undefined in 22875ms
+3. API
+提示: [unknow]Network disconnected
+[2026-04-27T06:05:37.749Z] Start
+[2026-04-27T06:05:53.780Z] Error: ConnectError: [unknown] Network disconnected
+4. Ping
+提示: [unknow]Network disconnected
+[2026-04-27T06:05:37.754Z] Sending ping 1
+[2026-04-27T06:05:47.772Z] Error: ConnectError: [unknown] Network disconnected
+5. Chat
+提示: [unknow]Network disconnected
+[2026-04-27T06:05:37.755Z] Starting stream
+[2026-04-27T06:05:47.796Z] Error: ConnectError: [unknown] Network disconnected
+6.Agent
+提示: [unknow]Network disconnected
+[2026-04-27T06:05:37.757Z] Starting stream
+[2026-04-27T06:05:37.758Z] Pushing first message
+[2026-04-27T06:05:47.803Z] Error: ConnectError: [unknown] Network disconnected
+
+
